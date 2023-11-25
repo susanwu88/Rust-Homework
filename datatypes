@@ -1,0 +1,15 @@
+//boolean
+fn main() {
+let is_bigger = 1 > 4;
+println!("Is 1 > 4? {}", is_bigger);  
+
+}
+//characters
+fn main() {
+let character_1: char = 'S';
+let character_2: char ='f';
+let smiley_face = "😃";
+let string_1 = "miley";
+let string_2= "ace";
+println!("{} is a {}{}{}{}", smiley_face, character_1, string_1, character_2, string_2);
+}
