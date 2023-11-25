@@ -8,3 +8,14 @@ a_number = 10;
     println!("The number is {}.", a_number);
 println!("The word is {}.", a_word);
 }
+//new exercise
+fn main() {
+//define a variable, make it mutable
+let a_number;
+//define a second variable
+let a_word = "Ten";
+//bind the first variable with a value of 10
+a_number = 15;
+    println!("The number is {}.", a_number);
+println!("The word is {}.", a_word);
+}
