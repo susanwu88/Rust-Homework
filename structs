@@ -6,3 +6,7 @@ struct grades (char, char, char, char, f32);
 
 //Unit struct
 struct unit; 
+
+//Instantiate classic struct, specify fields in random order or in specified order
+let user_1= Student { name: String:: from("Steve Wong"), remmote: true, level: 2 }; 
+let user_2= Student { name: String:: from("Nancy Lee"), level 7, remote: false}; 
